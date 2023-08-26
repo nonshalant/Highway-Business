@@ -1,0 +1,25 @@
+.column-left {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column-left h1 {
+    text-align: center;
+}
+
+.nav-links {
+    width: 30%;
+    margin: auto;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.nav-links li {
+    list-style-type: none;
+}
