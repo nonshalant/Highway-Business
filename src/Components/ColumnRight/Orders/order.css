@@ -1,0 +1,51 @@
+.orders-container {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.orders-header {
+    margin-top: 1.5%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    padding: 1%;
+}
+
+.order-details {
+    border: 1px solid;
+    padding: 1%;
+    overflow-y: scroll;
+    max-height: 78vh;
+}
+
+.order-details-container{
+    display: grid;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 0;
+    color: black;
+    border-bottom: 1px solid;
+}
+
+
+/* MODAL  */
+
+.modal {
+    height: 100%;
+}
+
+.modal-container {
+    height: 100%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
